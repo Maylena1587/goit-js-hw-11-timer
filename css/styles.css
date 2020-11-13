@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+body {
+  background-image: url(https://cdn5.vectorstock.com/i/1000x1000/09/49/fun-happy-birthday-template-vector-24030949.jpg);
+  background-size: 1380px 740px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.container {
+  margin: auto;
+  padding: 0 15px;
+}
+
+.title {
+  margin: 200px 0px 20px;
+  color: #9400d3;
+  font-weight: 500;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.timer {
+  color: #fff;
+  font-size: 30px;
+}
+
+.field {
+  display: inline-block;
+  width: 110px;
+  padding: 10px;
+  border-radius: 3px;
+  background: #ffc400;
+}
+
+.value {
+  display: inline-block;
+  width: 80px;
+  padding: 15px;
+  border-radius: 3px;
+  background: #ff0055;
+}
+
+.label {
+  display: block;
+  padding-top: 5px;
+  font-size: 16px;
+}
